@@ -1,5 +1,5 @@
 /* font families */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&family=EB+Garamond:wght@500&family=Montserrat:wght@400,500,600&display=swap');
 
 
 *{
@@ -16,7 +16,8 @@
 .Navigator{
     padding: 25px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 900;
+    font-size: 25px;
 
 }
 .Navigator ul {
@@ -88,11 +89,6 @@ button
     color:#ffffff;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-
 /* Banner Starts Here */
 
 #bannerimg {
@@ -122,19 +118,20 @@ h1 {
 
 /* Body A Sarts here */
 .BodyA {
-  padding: 20px;
+  padding: 80px;
 }
 /* Body A Ends here */
 
 .content {
-  width: 100%;
-  padding: 80px;
-  overflow: hidden;
-  display: flex;
+    width: 100%;
+    padding: 80px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
 }
 
 .image {
-  width: 611px;
+  width: 800px;
   float: left;
   margin-right: 10px;
   padding: 0;
@@ -146,24 +143,101 @@ h1 {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
   line-height: 30px;
+  width: 900px;
 }
 
 .sub-container h2 {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 50px;  
+  font-size: 30px;
+}
+
+.sub-container p
+{
+    padding: 0 80px 80px 0 ;
+
 }
 
 .BodyA p {
   font-family: "Montserrat", sans-serif;
   line-height: 30px;
   font-size: 18px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
-.Header {
-  padding-top: 70px;
+
+
+
+/* try */
+body {
+    /* font-family: Arial, sans-serif; */
+    text-align: center;
 }
+
+.comment-container {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* margin: 40px; */
+}
+
+.comment {
+    display: none;
+    margin: 20px;
+    padding: 50px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+.profile-name {
+    margin: 5px 0;
+}
+
+.comment-text {
+    font-size: 24px;
+    padding: 20px;
+}
+
+/* try */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .matrix-row {
   display: flex;
@@ -192,14 +266,14 @@ h1 {
   width:25%;
 }
 .matrix2 {
-  background-color: #ffcf61;
-  width:25%;
-
+    background-color: #ffcf61;
+    width:25%;
+    
 }
 .matrix3 {
-  background-color: #a0b7e3;
+    background-color: #a0b7e3;
   width:25%;
-
+  
 }
 
 .comments{
@@ -214,25 +288,23 @@ h1 {
 
 .comments h4{
  color: #ffffff;
- padding:16px;
- padding-left: 40%;
- padding-top: 128px;
- font-size: 30px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 60px;
+ font-size:45px;
  font-family: tahoma;
 }
 
- .wrapper_2{
-    background: red;
+.wrapper_2{
+    /* box-shadow: 2px 30px 10px blue; */
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 1000px;
-    margin-left: 180px;
     border-radius: 10px;
     padding: 30px;
     cursor: pointer;
-    max-width: 1100px;
-    width: 100%;
+    height: auto;
+    width: auto;
     
 }
 
@@ -248,10 +320,15 @@ h1 {
     width: 999px;
 
 }
+.testimony p{
+font-size: 30px;
+
+}
+
 
 .testimony h3{
     font-weight: 32px;
-    font-size: 16px;
+    font-size: 26px;
     color: #006634;
     margin: 20px 0 5px;
 }
@@ -284,19 +361,15 @@ h1 {
     margin-right:
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
 
 .foot
 {
-    /* width:auto; */
     height:auto;
     background-color:#0D0D0D;
     color:#fff;
-    padding:60px;
+    padding:80px;
     font-family: 'Overpass', sans-serif;
-
 }
-
 
 .footer-top
 {
@@ -324,14 +397,14 @@ h1 {
 
 .component nav h2
 {
-    /* padding-bottom:10px; */
+    padding-bottom:10px;
 }
 
 .footer-icon ul 
 {
     display:flex;
     justify-content:center;
-    font-size:40px;
+    font-size:45px;
     color: #FFFFFF;
 }
 .footer-icon ul li 
@@ -393,7 +466,6 @@ h1 {
 } 
 /* impact stories page style starts */
 
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,600&display=swap");
 
 .BodyA-container {
     display: flex;
