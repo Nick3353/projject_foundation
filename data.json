@@ -1,0 +1,151 @@
+{
+    "banner": {
+      "imageSrc": "media/images/banner.png",
+      "title": "POHUD Foundation",
+      "logoSrc": "media/images/logo.png"
+    },
+    "navigation": [
+      {
+        "text": "Home",
+        "link": "#home"
+      },
+      {
+        "text": "About Us",
+        "link": "about.html"
+      },
+      {
+        "text": "Impact Stories",
+        "link": "impact_stories.html"
+      },
+      {
+        "text": "Programs",
+        "link": "programs.html"
+      },
+      {
+        "text": "News & Updates",
+        "link": "news&events.html"
+      },
+      {
+        "text": "Contact Us",
+        "link": "contact.html"
+      }
+    ],
+    "bodyA": {
+      "overviewText": "Your overview text here...",
+      "volunteerButtonText": "Volunteer"
+    },
+    "header": "People & Business We Aim To Empower",
+    "slider": [
+      {
+        "imageSrc": "/media/images/buss1.png",
+        "title": "Card 1 Title",
+        "text": "This is the first card in the slider."
+      },
+      {
+        "imageSrc": "/media/images/buss2.png",
+        "title": "Card 2 Title",
+        "text": "This is the second card in the slider."
+      },
+      {
+        "imageSrc": "/media/images/buss3.png",
+        "text": "This is the third card in the slider."
+      }
+    ],
+    "matrix": [
+      {
+        "value": "231",
+        "text": "Microfinance Businesses"
+      },
+      {
+        "value": "null",
+        "text": "StartUps"
+      },
+      {
+        "value": "null",
+        "text": "Agricultural & Farming Initiatives"
+      },
+      {
+        "value": "null",
+        "text": "Education Initiatives"
+      }
+    ],
+    "comments": [
+      {
+        "imageSrc": "/media/images/over.jpg",
+        "commentText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "profileName": "John Doe"
+      },
+      {
+        "imageSrc": "/media/images/starter.png",
+        "commentText": "Sed do eiusmod tempor incididunt ut labore et dolore...",
+        "profileName": "Jane Smith"
+      }
+    ],
+    "footer": {
+      "company": [
+        {
+          "text": "Our Foundation",
+          "link": "#"
+        },
+        {
+          "text": "About Us",
+          "link": "#"
+        },
+        {
+          "text": "Impact Stories",
+          "link": "#stories"
+        },
+        {
+          "text": "Programs",
+          "link": "#"
+        },
+        {
+          "text": "News & Events",
+          "link": "#"
+        },
+        {
+          "text": "Contact Us",
+          "link": "#"
+        }
+      ],
+      "community": [
+        {
+          "text": "Events",
+          "link": "#"
+        },
+        {
+          "text": "Programs and Initiatives",
+          "link": "#"
+        },
+        {
+          "text": "Video Gallery",
+          "link": "#"
+        },
+        {
+          "text": "News Pages",
+          "link": "#"
+        }
+      ],
+      "newsletterText": "GET OUR NEWSLETTER TO STAY UP TO DATE",
+      "footerCopy": "© Copywrite 2023 POHUD, All rights Reserved",
+      "socialIcons": [
+        {
+          "icon": "FaFacebook",
+          "link": "#"
+        },
+        {
+          "icon": "FaLinkedin",
+          "link": "#"
+        },
+        {
+          "icon": "FaTwitter",
+          "link": "#"
+        },
+        {
+          "icon": "FaInstagram",
+          "link": "#"
+        }
+      ]
+    }
+  }
+  

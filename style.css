@@ -16,9 +16,8 @@
 .Navigator{
     padding: 25px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
     font-size: 25px;
-
+    
 }
 .Navigator ul {
     display: flex;
@@ -31,6 +30,7 @@
 }
 .Navigator ul li a
 {
+    font-weight: 4 00;
     text-decoration: none;
     color: #232524;
 }
@@ -39,6 +39,7 @@
 .logo{
     padding: 20px;
 }
+
 
 
 .body
@@ -54,6 +55,7 @@
     padding: 20px;
 }
 /* Navbar Ends Here */
+
 
 #search
 {
@@ -205,7 +207,73 @@ h1 {
 
 
 
+/* slider */
 
+
+.slider-container {
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-image {
+    width: 100%;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s;
+    animation: sliderScroll 10s linear infinite;
+    padding: 80px;
+}
+
+.card {
+    flex: 0 0 calc(33.33% - 10px);
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+    width: 300px;
+    background-color: #D9D9D9;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-content {
+    /* padding: 80px; */
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+#prev-button, #next-button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 25px;
+    color: #fff;
+    border: 2px #006634;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.slider-buttons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* slider */
 
 
 
