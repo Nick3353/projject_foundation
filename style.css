@@ -102,10 +102,10 @@ button
   position: absolute;
   top: 0;
 }
-h1 {
+.banner_text {
   color: #ffffff;
   text-align: center;
-  font-size: 60px;
+  font-size: 60px;   
   padding-top: 280px;
   font-family: "EB Garamond", serif;
 }

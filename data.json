@@ -85,27 +85,27 @@
       "company": [
         {
           "text": "Our Foundation",
-          "link": "#"
+          "link": "#home"
         },
         {
           "text": "About Us",
-          "link": "#"
+          "link": "#about"
         },
         {
           "text": "Impact Stories",
-          "link": "#stories"
+          "link": "#impact_stories"
         },
         {
           "text": "Programs",
-          "link": "#"
+          "link": "#programs"
         },
         {
           "text": "News & Events",
-          "link": "#"
+          "link": "#news&events"
         },
         {
           "text": "Contact Us",
-          "link": "#"
+          "link": "#contact"
         }
       ],
       "community": [
