@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&family=EB+Garamond:wght@500&family=Montserrat:wght@400,500,600&display=swap');
 
 
+
 *{
     padding: 0;
     margin: 0;
@@ -16,7 +17,7 @@
 .Navigator{
     padding: 25px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 16px;
     
 }
 .Navigator ul {
@@ -30,7 +31,7 @@
 }
 .Navigator ul li a
 {
-    font-weight: 4 00;
+    font-weight: 400;
     text-decoration: none;
     color: #232524;
 }
@@ -804,6 +805,7 @@ font-size: 30px;
  div.wrapper .vision p {
     font-size: 20px;
     font-family: tahoma;
+    width: 700px;
     text-align: center;
  }
 
@@ -815,9 +817,9 @@ font-size: 30px;
     color: #006634; }
   
     div.div_1 img {
-        margin-left: -12rem;
-        margin-top: 8rem;
-        width: 400px;
+        margin-left: -22rem;
+        margin-top: 4rem;
+        width: 600px;
     }
         
     
